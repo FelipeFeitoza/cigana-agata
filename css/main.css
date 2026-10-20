@@ -87,13 +87,24 @@ p { margin: 0 0 0.9em; }
 .brand {
   display: flex;
   align-items: center;
-  line-height: 0;
+  gap: 0.7rem;
+  line-height: 1;
   text-decoration: none;
+  color: var(--plum);
 }
 
 .brand img {
   height: 5.75rem;
   width: auto;
+}
+
+.brand-name {
+  font-family: var(--serif);
+  font-size: 1.7rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 0.95;
+  color: var(--plum);
 }
 
 .nav { display: flex; gap: 1.4rem; }
@@ -401,6 +412,7 @@ p { margin: 0 0 0.9em; }
 @media (max-width: 720px) {
   .nav-toggle { display: inline-flex; }
   .brand img { height: 4.4rem; }
+  .brand-name { font-size: 1.35rem; }
 
   .nav {
     display: none;

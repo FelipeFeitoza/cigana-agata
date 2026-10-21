@@ -1,15 +1,15 @@
 :root {
   --bg: #ffffff;
-  --bg-soft: #f6f4fb;
-  --ink: #1c1428;
-  --muted: #4e465c;
-  --plum: #2e1848;
-  --violet: #6b53c6;
-  --blue: #025dcd;
-  --line: #ece7f3;
-  --pink: #f8d5e6;
-  --magenta: #9b1850;
-  --shadow: 0 10px 30px rgba(57, 30, 87, 0.06);
+  --bg-soft: #f4eefb;
+  --ink: #2a1240;
+  --muted: #5c4a72;
+  --plum: #4a1878;
+  --violet: #7b3aad;
+  --blue: #6a4adf;
+  --line: #eadff5;
+  --pink: #efe4fb;
+  --magenta: #7a2ec4;
+  --shadow: 0 10px 30px rgba(90, 30, 160, 0.08);
   --serif: "Cormorant Garamond", Georgia, serif;
   --sans: "Outfit", "Segoe UI", sans-serif;
 }
@@ -133,8 +133,9 @@ p { margin: 0 0 0.9em; }
   overflow: hidden;
   padding: 4.5rem 0 5rem;
   background:
-    radial-gradient(680px 300px at 78% 42%, rgba(155, 24, 80, 0.35), transparent 70%),
-    linear-gradient(165deg, #241433 0%, #3a2156 52%, #4a2748 100%);
+    radial-gradient(720px 340px at 82% 28%, rgba(120, 70, 255, 0.45), transparent 68%),
+    radial-gradient(480px 260px at 14% 86%, rgba(196, 70, 230, 0.34), transparent 70%),
+    linear-gradient(155deg, #241433 0%, #4c1a86 46%, #6a32b8 100%);
 }
 
 .hero-layout {
@@ -150,7 +151,7 @@ p { margin: 0 0 0.9em; }
 
 .hero h1 { color: #f6f1e8; }
 
-.hero .eyebrow { color: #e4c98a; }
+.hero .eyebrow { color: #f0d4ff; }
 
 .hero .lead {
   max-width: 36rem;
@@ -285,7 +286,7 @@ p { margin: 0 0 0.9em; }
 
 .package.is-highlight {
   background: var(--pink);
-  border-color: #f3b4cc;
+  border-color: #d7b4f0;
 }
 
 .button-pack { width: 100%; }
@@ -306,7 +307,7 @@ p { margin: 0 0 0.9em; }
 
 .site-footer {
   background: #fff;
-  border-top: 4px solid #e21878;
+  border-top: 4px solid #7a2ec4;
   padding: 2.4rem 0 2.6rem;
   color: #5c5666;
   font-size: 0.95rem;
@@ -341,9 +342,9 @@ p { margin: 0 0 0.9em; }
   max-width: 100%;
   margin: 0 0 0.7rem;
   padding: 0.45rem 0.9rem;
-  border: 1.5px solid #c2185b;
+  border: 1.5px solid #7a2ec4;
   border-radius: 10px;
-  color: #c2185b;
+  color: #7a2ec4;
   font-weight: 600;
   text-decoration: none;
 }
@@ -363,13 +364,13 @@ p { margin: 0 0 0.9em; }
 }
 
 .footer-links a {
-  color: #c2185b;
+  color: #7a2ec4;
   font-weight: 600;
   text-decoration: none;
 }
 
 .footer-links a:hover,
-.footer-pill:hover { color: #8e1044; }
+.footer-pill:hover { color: #5a1d9a; }
 
 .social {
   display: flex;

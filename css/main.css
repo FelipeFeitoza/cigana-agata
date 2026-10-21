@@ -132,10 +132,14 @@ p { margin: 0 0 0.9em; }
   position: relative;
   overflow: hidden;
   padding: 4.5rem 0 5rem;
-  background:
-    radial-gradient(720px 340px at 82% 28%, rgba(120, 70, 255, 0.45), transparent 68%),
-    radial-gradient(480px 260px at 14% 86%, rgba(196, 70, 230, 0.34), transparent 70%),
-    linear-gradient(155deg, #241433 0%, #4c1a86 46%, #6a32b8 100%);
+  min-height: 34rem;
+  background-color: #241433;
+  background-image:
+    linear-gradient(100deg, rgba(36, 20, 51, 0.92) 0%, rgba(36, 20, 51, 0.72) 38%, rgba(74, 24, 120, 0.28) 68%, rgba(36, 20, 51, 0.18) 100%),
+    url("../assets/hero-tarot.jpg");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-layout {

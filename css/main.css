@@ -79,7 +79,7 @@ p { margin: 0 0 0.9em; }
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  min-height: 5.5rem;
+  min-height: 6.6rem;
   padding: 0.3rem 6vw;
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(10px);
@@ -98,10 +98,10 @@ p { margin: 0 0 0.9em; }
 
 .brand img {
   display: block;
-  height: 5.28rem;
-  max-height: 5.28rem;
+  height: 6.34rem;
+  max-height: 6.34rem;
   width: auto;
-  max-width: min(18.15rem, 46vw);
+  max-width: min(21.78rem, 52vw);
   object-fit: contain;
 }
 
@@ -453,7 +453,7 @@ p { margin: 0 0 0.9em; }
 
 @media (max-width: 720px) {
   .nav-toggle { display: inline-flex; }
-  .brand img { height: 3.96rem; max-height: 3.96rem; max-width: min(13.75rem, 62vw); }
+  .brand img { height: 4.75rem; max-height: 4.75rem; max-width: min(16.5rem, 68vw); }
 
   .nav {
     display: none;

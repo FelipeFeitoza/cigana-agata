@@ -75,10 +75,12 @@ p { margin: 0 0 0.9em; }
   top: 0;
   z-index: 5;
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.35rem 6vw;
+  min-height: 6.6rem;
+  padding: 0.3rem 6vw;
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
@@ -87,15 +89,20 @@ p { margin: 0 0 0.9em; }
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.7rem;
+  flex: 0 1 auto;
+  min-width: 0;
   line-height: 1;
   text-decoration: none;
   color: var(--plum);
 }
 
 .brand img {
-  height: 5.75rem;
+  display: block;
+  height: 6.34rem;
+  max-height: 6.34rem;
   width: auto;
+  max-width: min(21.78rem, 52vw);
+  object-fit: contain;
 }
 
 .brand-name {
@@ -446,8 +453,7 @@ p { margin: 0 0 0.9em; }
 
 @media (max-width: 720px) {
   .nav-toggle { display: inline-flex; }
-  .brand img { height: 4.4rem; }
-  .brand-name { font-size: 1.35rem; }
+  .brand img { height: 4.75rem; max-height: 4.75rem; max-width: min(16.5rem, 68vw); }
 
   .nav {
     display: none;
